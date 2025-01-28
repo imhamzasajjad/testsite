@@ -3,67 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TestSite</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-
-    header {
-      background-color: #007bff;
-      color: white;
-      padding: 1rem 0;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 20px auto;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    h1 {
-      font-size: 2rem;
-      color: #007bff;
-    }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background: #007bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 1rem;
-      margin-top: 20px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .btn:hover {
-      background: #0056b3;
-    }
-  </style>
+  <title>TestSite | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Welcome to TestSite</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="testing.html">Testing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
-  <div class="container">
-    <h2>About This Site</h2>
-    <p>This is a simple testing website created for WAF testing purposes. It’s designed to receive and process both normal and fuzzing payloads. Please feel free to explore the functionality of the website.</p>
-    <a href="#" class="btn">Learn More</a>
-  </div>
+  <main>
+    <section>
+      <h2>Your Go-To WAF Testing Platform</h2>
+      <p>TestSite is designed for developers and researchers to test Web Application Firewalls (WAFs) using both normal and fuzzing payloads.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 TestSite. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
